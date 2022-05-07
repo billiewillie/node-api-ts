@@ -1,0 +1,22 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"description": "for interacting with the API",
+	"main": "index.js",
+	"type": "commonjs",
+	"scripts": {
+		"start": "node ./dist/main.js",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Vadim Belinovich",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.1",
+		"tslog": "^3.3.3"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.13"
+	}
+}
